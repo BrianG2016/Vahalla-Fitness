@@ -13,3 +13,6 @@ client/
 ├── package.json
 ├── vite.config.js
 └── index.html
+cd client
+npm install
+npm run dev
