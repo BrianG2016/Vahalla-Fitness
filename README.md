@@ -1,1 +1,2 @@
-# Valhalla Fitness — v1 Ascension Build (Full Pack)
+
+design/valhalla_fitness_license_scroll.png
