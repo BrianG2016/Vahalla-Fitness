@@ -1,0 +1,3 @@
+import { Router } from 'express'
+export const router=Router()
+router.post('/plan',(req,res)=>{const {calories=2400,allergies=[]}=req.body; const avoid=new Set(allergies.map(a=>a.toLowerCase())); const meal=(name,items)=>({name,items:items.filter(i=>!avoid.has(i.tag))}); const pre=meal('Pre-Workout Feast',[{title:'Oats & Honey',tag:'gluten'},{title:'Banana & Almonds',tag:'nuts'},{title:'Greek Yogurt',tag:'dairy'}]); const post=meal('Post-Workout Recovery',[{title:'Chicken & Rice',tag:'none'},{title:'Whey Shake',tag:'dairy'},{title:'Tofu Stir Fry',tag:'soy'}]); const daily=meal('Daily Nourishment',[{title:'Salmon & Greens',tag:'fish'},{title:'Quinoa Bowl',tag:'none'},{title:'Eggs & Veg',tag:'eggs'}]); res.json({calories,pre,post,daily})})
