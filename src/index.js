@@ -1,4 +1,5 @@
-import 'dotenv/config'
+import paymentRoutes from './routes/payments.js'
+app.use('/api/payments', paymentRoutes)import 'dotenv/config'
 import express from 'express'
 import cors from 'cors'
 
