@@ -1,4 +1,30 @@
-# ⚔️ Valhalla Fitness
+## ⚔️ Valhalla Fitness – AI-Powered Fitness App  
+**FOR SALE • Created by Brian Gaskamp**
+
+📜 *A Norse-inspired AI fitness experience guided by Odin, Thor, Freyja, and Frigg.*
+
+---
+
+### 💰 Project Status: FOR SALE
+This full application (client + server + brand assets) is available for acquisition.
+
+- **Includes:** Full source code, brand rights, visuals, and documentation  
+- **Buyer will receive:** Deployment-ready files + Ownership transfer  
+- **Listing Platforms:** [eBay Listing](https://your-ebay-listing-link) | [Gumroad](https://your-gumroad-link)
+
+---
+
+### 🛠️ Tech Stack
+- React / Tailwind Frontend  
+- Node.js / Express Backend  
+- OpenAI-powered Chatbot  
+- Voice + Text AI System  
+
+---
+
+### ⚙️ Ownership
+All rights and creative assets © 2025 **Brian Gaskamp**  
+For inquiries: contact via eBay listing or message on GitHub. ⚔️ Valhalla Fitness
 
 ![Valhalla Fitness Banner](design/Valhalla_Fitness_Banner.png)
 
